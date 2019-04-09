@@ -44,24 +44,22 @@ main {
 }
 
 header {
+  position: absolute;
+  z-index: 10000;
   margin: 0;
+  margin-top: 4px;
+  text-align: center;
   height: 56px;
-  padding: 0 16px 0 24px;
+  width: 100%;
   background-color: #fff;
-  color: #ffffff;
-  margin-top:2px;
-  border-top:solid 1px #ddd;
-  border-bottom:solid 1px #ddd;
+  color: #fff;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  margin-bottom: 64px;
 }
 
-
 header span {
-  display: block;
-  position: relative;
-  font-size: 20px;
-  line-height: 1;
-  letter-spacing: .02em;
-  font-weight: 400;
   box-sizing: border-box;
+  text-align: center;
 }
 </style>
